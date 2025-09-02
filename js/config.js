@@ -49,6 +49,11 @@ let respecConfig = {
         name: "Wilko Quak",
         company: "Geonovum",
         companyURL: "https://www.geonovum.nl",
+      },
+	  {
+        name: "Paul Janssen",
+        company: "Geonovum",
+        companyURL: "https://www.geonovum.nl",
       }
     ],
   //-- de namen van de auteur(s) ------------------------------------------------------
@@ -57,6 +62,11 @@ let respecConfig = {
     [
       {
         name: "Wilko Quak",
+        company: "Geonovum",
+        companyURL: "https://www.geonovum.nl",
+      },
+	  {
+        name: "Paul Janssen",
         company: "Geonovum",
         companyURL: "https://www.geonovum.nl",
       }
