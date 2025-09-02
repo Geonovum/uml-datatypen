@@ -2,9 +2,135 @@
    <body>
       <section id="cat" class="normative">
          <h2>Gegevensdefinitie</h2>
-         <!--MIMLM-ISO-1.0-1-20240216-20250902-172601 imvertor 4.4.0-->
+         <!--MIMLM-ISO-1.0-1-20240216-20250902-172847 imvertor 4.4.0-->
          <section>
             <h3>Primitieve datatypen   </h3>
+            
+            <section id="global_class_ISO191072003Spatialschema_GM_ArcString">
+               <h4>Primitief datatype   GM_Arc­String</h4>
+               
+               <table style="width: 100%;">
+                  <colgroup style="width: 30%;"></colgroup>
+                  <colgroup style="width: 70%;"></colgroup>
+                  <tbody>
+                     <tr>
+                        <th>Naam</th>
+                        <td>GM_Arc­String</td>
+                     </tr>
+                     <tr>
+                        <th>Herkomst</th>
+                        <td>
+                           ISO 19107-2003
+                           </td>
+                     </tr>
+                     <tr>
+                        <th>Definitie</th>
+                        <td>
+                           
+                           
+                           <p>Een sequentie van aaneengesloten lijnsegmenten met het interpolatietype circular arcs.</p>
+                           
+                           </td>
+                     </tr>
+                  </tbody>
+               </table>
+               
+               <h5>Overzicht relaties  </h5>
+               
+               
+               <table style="width: 100%;">
+                  <colgroup style="width: 50%;"></colgroup>
+                  <colgroup style="width: 50%;"></colgroup>
+                  <tbody>
+                     <tr>
+                        <th>Supertype relaties</th>
+                        <th>Supertype definitie</th>
+                     </tr>
+                     <tr>
+                        <td>
+                           GM_Arc­String
+                           is specialisatie van
+                           
+                           <a class="link" href="#global_class_ISO191072003Spatialschema_GM_CurveSegment">GM_Curve­Segment</a>
+                           
+                           </td>
+                        <td>
+                           
+                           <p>Een homogeen segment van een GM_Curve (lijn).</p>
+                           </td>
+                     </tr>
+                  </tbody>
+               </table>
+               
+               </section>
+            
+            <section id="global_class_ISO191072003Spatialschema_GM_Composite">
+               <h4>Primitief datatype   GM_Composite</h4>
+               
+               <table style="width: 100%;">
+                  <colgroup style="width: 30%;"></colgroup>
+                  <colgroup style="width: 70%;"></colgroup>
+                  <tbody>
+                     <tr>
+                        <th>Naam</th>
+                        <td>GM_Composite</td>
+                     </tr>
+                     <tr>
+                        <th>Herkomst</th>
+                        <td>
+                           ISO 19107-2003
+                           </td>
+                     </tr>
+                     <tr>
+                        <th>Definitie</th>
+                        <td>
+                           
+                           
+                           <p>Een set van geometrische primitieven die samen geometrieën vormen van een geometrische
+                              primitieve en die elkaar niet overlapen.</p>
+                           
+                           </td>
+                     </tr>
+                     <tr>
+                        <th>Toelichting</th>
+                        <td>
+                           
+                           
+                           <p>Bijvoorbeeld een lijn bestaat uit lijnsegmenten.</p>
+                           
+                           </td>
+                     </tr>
+                  </tbody>
+               </table>
+               
+               <h5>Overzicht relaties  </h5>
+               
+               
+               <table style="width: 100%;">
+                  <colgroup style="width: 50%;"></colgroup>
+                  <colgroup style="width: 50%;"></colgroup>
+                  <tbody>
+                     <tr>
+                        <th>Supertype relaties</th>
+                        <th>Supertype definitie</th>
+                     </tr>
+                     <tr>
+                        <td>
+                           GM_Composite
+                           is specialisatie van
+                           
+                           <a class="link" href="#global_class_ISO191072003Spatialschema_GM_Complex">GM_Complex</a>
+                           
+                           </td>
+                        <td>
+                           
+                           <p>Set van geometrische primitieven die elkaar niet overlappen.</p>
+                           </td>
+                     </tr>
+                  </tbody>
+               </table>
+               
+               </section>
             
             <section id="global_class_ISO191072003Spatialschema_GM_Aggregate">
                <h4>Primitief datatype   GM_Aggregate</h4>
@@ -52,6 +178,116 @@
                            is specialisatie van
                            
                            GM_Object
+                           
+                           </td>
+                        <td></td>
+                     </tr>
+                  </tbody>
+               </table>
+               
+               </section>
+            
+            <section id="global_class_ISO191072003Spatialschema_GM_Complex">
+               <h4>Primitief datatype   GM_Complex</h4>
+               
+               <table style="width: 100%;">
+                  <colgroup style="width: 30%;"></colgroup>
+                  <colgroup style="width: 70%;"></colgroup>
+                  <tbody>
+                     <tr>
+                        <th>Naam</th>
+                        <td>GM_Complex</td>
+                     </tr>
+                     <tr>
+                        <th>Herkomst</th>
+                        <td>
+                           ISO 19107-2003
+                           </td>
+                     </tr>
+                     <tr>
+                        <th>Definitie</th>
+                        <td>
+                           
+                           
+                           <p>Set van geometrische primitieven die elkaar niet overlappen.</p>
+                           
+                           </td>
+                     </tr>
+                  </tbody>
+               </table>
+               
+               <h5>Overzicht relaties  </h5>
+               
+               
+               <table style="width: 100%;">
+                  <colgroup style="width: 50%;"></colgroup>
+                  <colgroup style="width: 50%;"></colgroup>
+                  <tbody>
+                     <tr>
+                        <th>Supertype relaties</th>
+                        <th>Supertype definitie</th>
+                     </tr>
+                     <tr>
+                        <td>
+                           GM_Complex
+                           is specialisatie van
+                           
+                           GM_Object
+                           
+                           </td>
+                        <td></td>
+                     </tr>
+                  </tbody>
+               </table>
+               
+               </section>
+            
+            <section id="global_class_ISO191072003Spatialschema_GM_CurveSegment">
+               <h4>Primitief datatype   GM_Curve­Segment</h4>
+               
+               <table style="width: 100%;">
+                  <colgroup style="width: 30%;"></colgroup>
+                  <colgroup style="width: 70%;"></colgroup>
+                  <tbody>
+                     <tr>
+                        <th>Naam</th>
+                        <td>GM_Curve­Segment</td>
+                     </tr>
+                     <tr>
+                        <th>Herkomst</th>
+                        <td>
+                           ISO 19107-2003
+                           </td>
+                     </tr>
+                     <tr>
+                        <th>Definitie</th>
+                        <td>
+                           
+                           
+                           <p>Een homogeen segment van een GM_Curve (lijn).</p>
+                           
+                           </td>
+                     </tr>
+                  </tbody>
+               </table>
+               
+               <h5>Overzicht relaties  </h5>
+               
+               
+               <table style="width: 100%;">
+                  <colgroup style="width: 50%;"></colgroup>
+                  <colgroup style="width: 50%;"></colgroup>
+                  <tbody>
+                     <tr>
+                        <th>Supertype relaties</th>
+                        <th>Supertype definitie</th>
+                     </tr>
+                     <tr>
+                        <td>
+                           GM_Curve­Segment
+                           is specialisatie van
+                           
+                           GM_Curve
                            
                            </td>
                         <td></td>
