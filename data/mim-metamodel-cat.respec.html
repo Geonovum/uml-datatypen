@@ -1,4 +1,915 @@
-<!DOCTYPE HTML><section id="cat" class="normative"><h2>Gegevensdefinitie</h2><!--MIMLM-MIM2.0-1.0-1-20250930-20250930-162446 imvertor 4.4.0--><section id="global_package_MIMMetaklassenConceptueel"><h3>Domein   MIM-Metaklassen-Conceptueel</h3><section id="EAID_EFCDEE8E_15AE_4807_B4EC_95187A36BE95"><h4>   MIM-Metamodel Algemeen - overzicht</h4><div class="imageinfo overview"><figure class="uml-diagram"><img id="EAID_EFCDEE8E_15AE_4807_B4EC_95187A36BE95" src="data/Images/EAID_EFCDEE8E_15AE_4807_B4EC_95187A36BE95.png" usemap="#imagemap-EAID_EFCDEE8E_15AE_4807_B4EC_95187A36BE95" alt="Diagram: MIM-Metamodel Algemeen - overzicht"><figcaption> ‒ Diagram: MIM-Metamodel Algemeen</figcaption></figure><map name="imagemap-EAID_EFCDEE8E_15AE_4807_B4EC_95187A36BE95"></map><p>
+<!DOCTYPE HTML><section id="cat" class="normative"><h2>Gegevensdefinitie</h2><!--MIMLM-MIM2.0-1.0-1-20250930-20250930-164552 imvertor 4.4.0--><section id="global_package_MIMBegrippen"><h3>View   MIM-Begrippen</h3><section><h4>Objecttypen   </h4>
+            <section id="global_class_MIMBegrippen_Objecttype"><h5>   Objecttype</h5>
+               <table style="width: 100%;"><colgroup style="width: 30%;"></colgroup><colgroup style="width: 70%;"></colgroup><tbody><tr><th>Naam</th><td>Objecttype</td></tr><tr><th>Definitie</th><td>
+                        
+                              <p>Een OBJECTTYPE is een typering van gelijksoortige DOMEINOBJECTen.</p>
+                           
+                     </td></tr><tr><th>Indicatie abstract object</th><td>Nee</td></tr></tbody></table>
+               <h6>Overzicht relaties  </h6>
+                  <table style="width: 100%;"><colgroup style="width: 50%;"></colgroup><colgroup style="width: 50%;"></colgroup><tbody><tr><th>Relatienaam met kardinaliteiten</th><th>Definitie</th></tr><tr><td>
+                           Objecttype
+                           [ 1 ]
+                           
+                              <a class="link" href="#detail_association_MIMBegrippen_Objecttype_typeringvan">typering van</a>
+                           
+                           
+                              <a class="link" href="#global_class_MIMBegrippen_Domeinobject">Domeinobject</a>
+                           
+                           [ 1 ]
+                        </td><td></td></tr></tbody></table>
+                  
+               
+            </section>
+            <section id="global_class_MIMBegrippen_Categoriserendattribuutsoort"><h5>   Categoriserend attribuutsoort</h5>
+               <table style="width: 100%;"><colgroup style="width: 30%;"></colgroup><colgroup style="width: 70%;"></colgroup><tbody><tr><th>Naam</th><td>Categoriserend attribuutsoort</td></tr><tr><th>Definitie</th><td>
+                        
+                              <p>Een CATEGORISEREND ATTRIBUUTSOORT is een ATTRIBUUTSOORT als typering van een CATEGORISEREND KENMERK.</p>
+                           
+                     </td></tr><tr><th>Indicatie abstract object</th><td>Nee</td></tr></tbody></table>
+            </section>
+            <section id="global_class_MIMBegrippen_Gegevenstypegroep"><h5>   Gegevenstypegroep</h5>
+               <table style="width: 100%;"><colgroup style="width: 30%;"></colgroup><colgroup style="width: 70%;"></colgroup><tbody><tr><th>Naam</th><td>Gegevenstypegroep</td></tr><tr><th>Definitie</th><td>
+                        
+                              <p>Een GEGEVENSTYPEGROEP is een groepering van GEGEVENSTYPEN.</p>
+                           
+                     </td></tr><tr><th>Indicatie abstract object</th><td>Nee</td></tr></tbody></table>
+               <h6>Overzicht relaties  </h6>
+                  <table style="width: 100%;"><colgroup style="width: 50%;"></colgroup><colgroup style="width: 50%;"></colgroup><tbody><tr><th>Relatienaam met kardinaliteiten</th><th>Definitie</th></tr><tr><td>
+                           Gegevenstypegroep
+                           [ 1 ]
+                           
+                              <a class="link" href="#detail_association_MIMBegrippen_Gegevenstypegroep_groeperingvan">groepering van</a>
+                           
+                           
+                              <a class="link" href="#global_class_MIMBegrippen_Gegevenstype">Gegevenstype</a>
+                           
+                           [ 1 ]
+                        </td><td></td></tr></tbody></table>
+                  
+               
+            </section>
+            <section id="global_class_MIMBegrippen_Complexwaardetype"><h5>   Complex waardetype</h5>
+               <table style="width: 100%;"><colgroup style="width: 30%;"></colgroup><colgroup style="width: 70%;"></colgroup><tbody><tr><th>Naam</th><td>Complex waardetype</td></tr><tr><th>Definitie</th><td>
+                        
+                              <p>Een COMPLEX WAARDETYPE is een typering van gelijksoortige COMPLEXE WAARDEn.</p>
+                           
+                     </td></tr><tr><th>Indicatie abstract object</th><td>Nee</td></tr></tbody></table>
+               <h6>Overzicht relaties  </h6>
+                  <table style="width: 100%;"><colgroup style="width: 50%;"></colgroup><colgroup style="width: 50%;"></colgroup><tbody><tr><th>Relatienaam met kardinaliteiten</th><th>Definitie</th></tr><tr><td>
+                           Complex waardetype
+                           [ 1 ]
+                           
+                              <a class="link" href="#detail_association_MIMBegrippen_Complexwaardetype_heeftgegevenstype">heeft gegevenstype</a>
+                           
+                           
+                              <a class="link" href="#global_class_MIMMetaklassenConceptueel_Attribuutgegevenstype">Attribuutgegevenstype!</a>
+                           
+                           [ 1 ]
+                        </td><td></td></tr><tr><td>
+                           Complex waardetype
+                           [ 1 ]
+                           
+                              <a class="link" href="#detail_association_MIMBegrippen_Complexwaardetype_typeringvan">typering van</a>
+                           
+                           
+                              <a class="link" href="#global_class_MIMBegrippen_Complexewaarde">Complexe waarde</a>
+                           
+                           [ 1 ]
+                        </td><td></td></tr></tbody></table>
+                  
+               
+            </section>
+            <section id="global_class_MIMBegrippen_Eigenschap"><h5>   Eigenschap</h5>
+               <table style="width: 100%;"><colgroup style="width: 30%;"></colgroup><colgroup style="width: 70%;"></colgroup><tbody><tr><th>Naam</th><td>Eigenschap</td></tr><tr><th>Definitie</th><td>
+                        
+                              <p>Een EIGENSCHAP is een verschijnsel dat toegekend kan worden aan bepaalde DOMEIN Objecten.</p>
+                           
+                     </td></tr><tr><th>Indicatie abstract object</th><td>Nee</td></tr></tbody></table>
+               <h6>Overzicht relaties  </h6>
+                  <table style="width: 100%;"><colgroup style="width: 50%;"></colgroup><colgroup style="width: 50%;"></colgroup><tbody><tr><th>Relatienaam met kardinaliteiten</th><th>Definitie</th></tr><tr><td>
+                           Eigenschap
+                           [ 1 ]
+                           
+                              <a class="link" href="#detail_association_MIMBegrippen_Eigenschap_toegekendaan">toegekend aan</a>
+                           
+                           
+                              <a class="link" href="#global_class_MIMBegrippen_Domeinobject">Domeinobject</a>
+                           
+                           [ 1 ]
+                        </td><td></td></tr></tbody></table>
+                  
+               
+            </section>
+            <section id="global_class_MIMBegrippen_Gegevensobject"><h5>   Gegevensobject</h5>
+               <table style="width: 100%;"><colgroup style="width: 30%;"></colgroup><colgroup style="width: 70%;"></colgroup><tbody><tr><th>Naam</th><td>Gegevensobject</td></tr><tr><th>Definitie</th><td>
+                        
+                              <p>Een GEGEVENSOBJECT is een onderscheidbaar geheel van GEGEVENs over één of meerdere DOMEINOBJECTen.</p>
+                           
+                     </td></tr><tr><th>Indicatie abstract object</th><td>Nee</td></tr></tbody></table>
+               <h6>Overzicht relaties  </h6>
+                  <table style="width: 100%;"><colgroup style="width: 50%;"></colgroup><colgroup style="width: 50%;"></colgroup><tbody><tr><th>Relatienaam met kardinaliteiten</th><th>Definitie</th></tr><tr><td>
+                           Gegevensobject
+                           [ 1 ]
+                           
+                              <a class="link" href="#detail_association_MIMBegrippen_Gegevensobject_heeftalshoofdonderwerp">heeft als hoofdonderwerp</a>
+                           
+                           
+                              <a class="link" href="#global_class_MIMBegrippen_Hoofdonderwerp">Hoofdonderwerp</a>
+                           
+                           [ 1 ]
+                        </td><td></td></tr><tr><td>
+                           Gegevensobject
+                           [ 1 ]
+                           
+                              <a class="link" href="#detail_association_MIMBegrippen_Gegevensobject_onderscheidbaargeheelvan">onderscheidbaar geheel van</a>
+                           
+                           
+                              <a class="link" href="#global_class_MIMBegrippen_Gegeven">Gegeven</a>
+                           
+                           [ 1 ]
+                        </td><td></td></tr></tbody></table>
+                  
+               
+            </section>
+            <section id="global_class_MIMBegrippen_Relatie"><h5>   Relatie</h5>
+               <table style="width: 100%;"><colgroup style="width: 30%;"></colgroup><colgroup style="width: 70%;"></colgroup><tbody><tr><th>Naam</th><td>Relatie</td></tr><tr><th>Definitie</th><td>
+                        
+                              <p>Een RELATIE is een verbintenis tussen DOMEINOBJECTen.</p>
+                           
+                     </td></tr><tr><th>Indicatie abstract object</th><td>Nee</td></tr></tbody></table>
+               <h6>Overzicht relaties  </h6>
+                  <table style="width: 100%;"><colgroup style="width: 50%;"></colgroup><colgroup style="width: 50%;"></colgroup><tbody><tr><th>Relatienaam met kardinaliteiten</th><th>Definitie</th></tr><tr><td>
+                           Relatie
+                           [ 1 ]
+                           
+                              <a class="link" href="#detail_association_MIMBegrippen_Relatie_verbintenistussen">verbintenis tussen</a>
+                           
+                           
+                              <a class="link" href="#global_class_MIMBegrippen_Domeinobject">Domeinobject</a>
+                           
+                           [ 1 ]
+                        </td><td></td></tr></tbody></table>
+                  
+               
+            </section>
+            <section id="global_class_MIMBegrippen_Conditie"><h5>   Conditie</h5>
+               <table style="width: 100%;"><colgroup style="width: 30%;"></colgroup><colgroup style="width: 70%;"></colgroup><tbody><tr><th>Naam</th><td>Conditie</td></tr><tr><th>Definitie</th><td>
+                        
+                              <p>Een CONDITIE is een noodzakelijke voorwaarde die moet gelden voor een typering.</p>
+                           
+                     </td></tr><tr><th>Indicatie abstract object</th><td>Nee</td></tr></tbody></table>
+            </section>
+            <section id="global_class_MIMBegrippen_Categorie"><h5>   Categorie</h5>
+               <table style="width: 100%;"><colgroup style="width: 30%;"></colgroup><colgroup style="width: 70%;"></colgroup><tbody><tr><th>Naam</th><td>Categorie</td></tr><tr><th>Definitie</th><td>
+                        
+                              <p>Een CATEGORIE is een aanduiding van een groep DOMEINOBJECTen die iets gemeen hebben.</p>
+                           
+                     </td></tr><tr><th>Indicatie abstract object</th><td>Nee</td></tr></tbody></table>
+               <h6>Overzicht relaties  </h6>
+                  <table style="width: 100%;"><colgroup style="width: 50%;"></colgroup><colgroup style="width: 50%;"></colgroup><tbody><tr><th>Relatienaam met kardinaliteiten</th><th>Definitie</th></tr><tr><td>
+                           Categorie
+                           [ 1 ]
+                           
+                              <a class="link" href="#detail_association_MIMBegrippen_Categorie_toegekendvia">toegekend via</a>
+                           
+                           
+                              <a class="link" href="#global_class_MIMBegrippen_Categoriserendkenmerk">Categoriserend kenmerk</a>
+                           
+                           [ 1 ]
+                        </td><td></td></tr></tbody></table>
+                  
+               
+            </section>
+            <section id="global_class_MIMBegrippen_Gegevensobjecttype"><h5>   Gegevensobjecttype</h5>
+               <table style="width: 100%;"><colgroup style="width: 30%;"></colgroup><colgroup style="width: 70%;"></colgroup><tbody><tr><th>Naam</th><td>Gegevensobjecttype</td></tr><tr><th>Definitie</th><td>
+                        
+                              <p>Een GEGEVENSOBJECTTYPE is een typering van gelijksoortige GEGEVENSOBJECTen.</p>
+                           
+                     </td></tr><tr><th>Indicatie abstract object</th><td>Nee</td></tr></tbody></table>
+               <h6>Overzicht relaties  </h6>
+                  <table style="width: 100%;"><colgroup style="width: 50%;"></colgroup><colgroup style="width: 50%;"></colgroup><tbody><tr><th>Relatienaam met kardinaliteiten</th><th>Definitie</th></tr><tr><td>
+                           Gegevensobjecttype
+                           [ 1 ]
+                           
+                              <a class="link" href="#detail_association_MIMBegrippen_Gegevensobjecttype_typeringvan">typering van</a>
+                           
+                           
+                              <a class="link" href="#global_class_MIMBegrippen_Gegevensobject">Gegevensobject</a>
+                           
+                           [ 1 ]
+                        </td><td></td></tr></tbody></table>
+                  
+               
+            </section>
+            <section id="global_class_MIMBegrippen_Classificatie"><h5>   Classificatie!</h5>
+               <table style="width: 100%;"><colgroup style="width: 30%;"></colgroup><colgroup style="width: 70%;"></colgroup><tbody><tr><th>Naam</th><td>Classificatie!</td></tr><tr><th>Indicatie abstract object</th><td>Nee</td></tr></tbody></table>
+            </section>
+            <section id="global_class_MIMBegrippen_Attribuuttype"><h5>   Attribuuttype</h5>
+               <table style="width: 100%;"><colgroup style="width: 30%;"></colgroup><colgroup style="width: 70%;"></colgroup><tbody><tr><th>Naam</th><td>Attribuuttype</td></tr><tr><th>Definitie</th><td>
+                        
+                              <p>Een ATTRIBUUTTYPE is een typering van een KENMERK van een DOMEINOBJECT, behorende tot een OBJECTTYPE.</p>
+                           
+                     </td></tr><tr><th>Indicatie abstract object</th><td>Nee</td></tr></tbody></table>
+               <h6>Overzicht relaties  </h6>
+                  <table style="width: 100%;"><colgroup style="width: 50%;"></colgroup><colgroup style="width: 50%;"></colgroup><tbody><tr><th>Relatienaam met kardinaliteiten</th><th>Definitie</th></tr><tr><td>
+                           Attribuuttype
+                           [ 1 ]
+                           
+                              <a class="link" href="#detail_association_MIMBegrippen_Attribuuttype_typeringvan">typering van</a>
+                           
+                           
+                              <a class="link" href="#global_class_MIMBegrippen_Kenmerk">Kenmerk</a>
+                           
+                           [ 1 ]
+                        </td><td></td></tr><tr><td>
+                           Attribuuttype
+                           is specialisatie van
+                           
+                              <a class="link" href="#global_class_MIMBegrippen_Eigenschaptype">Eigenschaptype!</a>
+                           
+                        </td><td></td></tr></tbody></table>
+                  
+               
+            </section>
+            <section id="global_class_MIMBegrippen_Complexewaarde"><h5>   Complexe waarde</h5>
+               <table style="width: 100%;"><colgroup style="width: 30%;"></colgroup><colgroup style="width: 70%;"></colgroup><tbody><tr><th>Naam</th><td>Complexe waarde</td></tr><tr><th>Definitie</th><td>
+                        
+                              <p>Een COMPLEXE WAARDE is een WAARDE die bestaat uit een aaneenschakeling van afzonderlijke LETTERLIJKE WAARDEn en/of CLASSIFICATIEs.</p>
+                           
+                     </td></tr><tr><th>Indicatie abstract object</th><td>Nee</td></tr></tbody></table>
+               <h6>Overzicht relaties  </h6>
+                  <table style="width: 100%;"><colgroup style="width: 50%;"></colgroup><colgroup style="width: 50%;"></colgroup><tbody><tr><th>Relatienaam met kardinaliteiten</th><th>Definitie</th></tr><tr><td>
+                           Complexe waarde
+                           [ 1 ]
+                           
+                              <a class="link" href="#detail_association_MIMBegrippen_Complexewaarde_bestaatuit">bestaat uit</a>
+                           
+                           
+                              <a class="link" href="#global_class_MIMBegrippen_Letterlijkewaarde">Letterlijke waarde</a>
+                           
+                           [ 1 ]
+                        </td><td></td></tr><tr><td>
+                           Complexe waarde
+                           [ 1 ]
+                           
+                              <a class="link" href="#detail_association_MIMBegrippen_Complexewaarde_enofbestaatuit">en of bestaat uit</a>
+                           
+                           
+                              <a class="link" href="#global_class_MIMBegrippen_Classificatie">Classificatie!</a>
+                           
+                           [ 1 ]
+                        </td><td></td></tr><tr><td>
+                           Complexe waarde
+                           is specialisatie van
+                           
+                              <a class="link" href="#global_class_MIMBegrippen_Waarde">Waarde!</a>
+                           
+                        </td><td></td></tr></tbody></table>
+                  
+               
+            </section>
+            <section id="global_class_MIMBegrippen_Identificerendeeigenschap"><h5>   Identificerende eigenschap</h5>
+               <table style="width: 100%;"><colgroup style="width: 30%;"></colgroup><colgroup style="width: 70%;"></colgroup><tbody><tr><th>Naam</th><td>Identificerende eigenschap</td></tr><tr><th>Definitie</th><td>
+                        
+                              <p>Een IDENTIFICERENDE EIGENSCHAP is een EIGENSCHAP waarmee de identiteit van een DOMEINOBJECT kan worden vastgesteld.</p>
+                           
+                     </td></tr><tr><th>Indicatie abstract object</th><td>Nee</td></tr></tbody></table>
+               <h6>Overzicht relaties  </h6>
+                  <table style="width: 100%;"><colgroup style="width: 50%;"></colgroup><colgroup style="width: 50%;"></colgroup><tbody><tr><th>Relatienaam met kardinaliteiten</th><th>Definitie</th></tr><tr><td>
+                           Identificerende eigenschap
+                           [ 1 ]
+                           
+                              <a class="link" href="#detail_association_MIMBegrippen_Identificerendeeigenschap_geeftidentiteitaan">geeft identiteit aan</a>
+                           
+                           
+                              <a class="link" href="#global_class_MIMBegrippen_Domeinobject">Domeinobject</a>
+                           
+                           [ 1 ]
+                        </td><td></td></tr><tr><td>
+                           Identificerende eigenschap
+                           is specialisatie van
+                           
+                              <a class="link" href="#global_class_MIMBegrippen_Eigenschap">Eigenschap</a>
+                           
+                        </td><td>
+                           <p>Een EIGENSCHAP is een verschijnsel dat toegekend kan worden aan bepaalde DOMEIN Objecten.</p>
+                        </td></tr></tbody></table>
+                  
+               
+            </section>
+            <section id="global_class_MIMBegrippen_Gegevensobjectrelatie"><h5>   Gegevensobjectrelatie</h5>
+               <table style="width: 100%;"><colgroup style="width: 30%;"></colgroup><colgroup style="width: 70%;"></colgroup><tbody><tr><th>Naam</th><td>Gegevensobjectrelatie</td></tr><tr><th>Indicatie abstract object</th><td>Nee</td></tr></tbody></table>
+            </section>
+            <section id="global_class_MIMBegrippen_Beschouwingsdomein"><h5>   Beschouwingsdomein</h5>
+               <table style="width: 100%;"><colgroup style="width: 30%;"></colgroup><colgroup style="width: 70%;"></colgroup><tbody><tr><th>Naam</th><td>Beschouwingsdomein</td></tr><tr><th>Definitie</th><td>
+                        
+                              <p>Een BESCHOUWINGDOMEIN is een deel van de werkelijkheid dat we relevant vinden om te beschouwen vanuit een bepaalde context.</p>
+                           
+                     </td></tr><tr><th>Indicatie abstract object</th><td>Nee</td></tr></tbody></table>
+            </section>
+            <section id="global_class_MIMBegrippen_Gegeven"><h5>   Gegeven</h5>
+               <table style="width: 100%;"><colgroup style="width: 30%;"></colgroup><colgroup style="width: 70%;"></colgroup><tbody><tr><th>Naam</th><td>Gegeven</td></tr><tr><th>Definitie</th><td>
+                        
+                              <p>Een GEGEVEN is een vastgelegde uitdrukking over een EIGENSCHAP van een DOMEINOBJECT.</p>
+                           
+                     </td></tr><tr><th>Indicatie abstract object</th><td>Nee</td></tr></tbody></table>
+               <h6>Overzicht relaties  </h6>
+                  <table style="width: 100%;"><colgroup style="width: 50%;"></colgroup><colgroup style="width: 50%;"></colgroup><tbody><tr><th>Relatienaam met kardinaliteiten</th><th>Definitie</th></tr><tr><td>
+                           Gegeven
+                           [ 1 ]
+                           
+                              <a class="link" href="#detail_association_MIMBegrippen_Gegeven_vastleggingvaneen">vastlegging van een</a>
+                           
+                           
+                              <a class="link" href="#global_class_MIMBegrippen_Eigenschap">Eigenschap</a>
+                           
+                           [ 1 ]
+                        </td><td></td></tr></tbody></table>
+                  
+               
+            </section>
+            <section id="global_class_MIMBegrippen_Gegevenstype"><h5>   Gegevenstype</h5>
+               <table style="width: 100%;"><colgroup style="width: 30%;"></colgroup><colgroup style="width: 70%;"></colgroup><tbody><tr><th>Naam</th><td>Gegevenstype</td></tr><tr><th>Definitie</th><td>
+                        
+                              <p>Een GEGEVENSTYPE is een typering van gelijksoortige GEGEVENs.</p>
+                           
+                     </td></tr><tr><th>Indicatie abstract object</th><td>Nee</td></tr></tbody></table>
+               <h6>Overzicht relaties  </h6>
+                  <table style="width: 100%;"><colgroup style="width: 50%;"></colgroup><colgroup style="width: 50%;"></colgroup><tbody><tr><th>Relatienaam met kardinaliteiten</th><th>Definitie</th></tr><tr><td>
+                           Gegevenstype
+                           [ 1 ]
+                           
+                              <a class="link" href="#detail_association_MIMBegrippen_Gegevenstype_typeringvan">typering van</a>
+                           
+                           
+                              <a class="link" href="#global_class_MIMBegrippen_Gegeven">Gegeven</a>
+                           
+                           [ 1 ]
+                        </td><td></td></tr></tbody></table>
+                  
+               
+            </section>
+            <section id="global_class_MIMBegrippen_Hoofdonderwerp"><h5>   Hoofdonderwerp</h5>
+               <table style="width: 100%;"><colgroup style="width: 30%;"></colgroup><colgroup style="width: 70%;"></colgroup><tbody><tr><th>Naam</th><td>Hoofdonderwerp</td></tr><tr><th>Definitie</th><td>
+                        
+                              <p>Een HOOFDONDERWERP is een DOMEINOBJECT waarover een GEGEVENSOBJECT in hoofdzaak gaat.</p>
+                           
+                     </td></tr><tr><th>Indicatie abstract object</th><td>Nee</td></tr></tbody></table>
+               <h6>Overzicht relaties  </h6>
+                  <table style="width: 100%;"><colgroup style="width: 50%;"></colgroup><colgroup style="width: 50%;"></colgroup><tbody><tr><th>Relatienaam met kardinaliteiten</th><th>Definitie</th></tr><tr><td>
+                           Hoofdonderwerp
+                           is specialisatie van
+                           
+                              <a class="link" href="#global_class_MIMBegrippen_Domeinobject">Domeinobject</a>
+                           
+                        </td><td>
+                           <p>Een DOMEINOBJECT is een onderscheidbaar iets in de beschouwde werkelijkheid.</p>
+                        </td></tr></tbody></table>
+                  
+               
+            </section>
+            <section id="global_class_MIMBegrippen_Kenmerk"><h5>   Kenmerk</h5>
+               <table style="width: 100%;"><colgroup style="width: 30%;"></colgroup><colgroup style="width: 70%;"></colgroup><tbody><tr><th>Naam</th><td>Kenmerk</td></tr><tr><th>Definitie</th><td>
+                        
+                              <p>Een KENMERK is een EIGENSCHAP van een DOMEINOBJECT waar een WAARDE aan kan worden toegekend.</p>
+                           
+                     </td></tr><tr><th>Indicatie abstract object</th><td>Nee</td></tr></tbody></table>
+               <h6>Overzicht relaties  </h6>
+                  <table style="width: 100%;"><colgroup style="width: 50%;"></colgroup><colgroup style="width: 50%;"></colgroup><tbody><tr><th>Relatienaam met kardinaliteiten</th><th>Definitie</th></tr><tr><td>
+                           Kenmerk
+                           is specialisatie van
+                           
+                              <a class="link" href="#global_class_MIMBegrippen_Eigenschap">Eigenschap</a>
+                           
+                        </td><td>
+                           <p>Een EIGENSCHAP is een verschijnsel dat toegekend kan worden aan bepaalde DOMEIN Objecten.</p>
+                        </td></tr></tbody></table>
+                  
+               
+            </section>
+            <section id="global_class_MIMBegrippen_Sleutel"><h5>   Sleutel</h5>
+               <table style="width: 100%;"><colgroup style="width: 30%;"></colgroup><colgroup style="width: 70%;"></colgroup><tbody><tr><th>Naam</th><td>Sleutel</td></tr><tr><th>Definitie</th><td>
+                        
+                              <p>Een SLEUTEL is de verzameling van GEGEVENSTYPEn waarmee een unieke aanduiding voor een GEGEVENSOBJECT kan worden gevormd.</p>
+                           
+                     </td></tr><tr><th>Indicatie abstract object</th><td>Nee</td></tr></tbody></table>
+               <h6>Overzicht relaties  </h6>
+                  <table style="width: 100%;"><colgroup style="width: 50%;"></colgroup><colgroup style="width: 50%;"></colgroup><tbody><tr><th>Relatienaam met kardinaliteiten</th><th>Definitie</th></tr><tr><td>
+                           Sleutel
+                           [ 1 ]
+                           
+                              <a class="link" href="#detail_association_MIMBegrippen_Sleutel_verzamelingvan">verzameling van</a>
+                           
+                           
+                              <a class="link" href="#global_class_MIMBegrippen_Gegevenstype">Gegevenstype</a>
+                           
+                           [ 1 ]
+                        </td><td></td></tr><tr><td>
+                           Sleutel
+                           [ 1 ]
+                           
+                              <a class="link" href="#detail_association_MIMBegrippen_Sleutel_uniekeaanduidingvoor">unieke aanduiding voor</a>
+                           
+                           
+                              <a class="link" href="#global_class_MIMBegrippen_Gegevensobjecttype">Gegevensobjecttype</a>
+                           
+                           [ 1 ]
+                        </td><td></td></tr></tbody></table>
+                  
+               
+            </section>
+            <section id="global_class_MIMBegrippen_Populatie"><h5>   Populatie</h5>
+               <table style="width: 100%;"><colgroup style="width: 30%;"></colgroup><colgroup style="width: 70%;"></colgroup><tbody><tr><th>Naam</th><td>Populatie</td></tr><tr><th>Definitie</th><td>
+                        
+                              <p>Een POPULATIE is de verzameling van alle mogelijke DOMEINOBJECTen die te onderscheiden zijn als OBJECTTYPE.</p>
+                           
+                     </td></tr><tr><th>Indicatie abstract object</th><td>Nee</td></tr></tbody></table>
+               <h6>Overzicht relaties  </h6>
+                  <table style="width: 100%;"><colgroup style="width: 50%;"></colgroup><colgroup style="width: 50%;"></colgroup><tbody><tr><th>Relatienaam met kardinaliteiten</th><th>Definitie</th></tr><tr><td>
+                           Populatie
+                           [ 1 ]
+                           
+                              <a class="link" href="#detail_association_MIMBegrippen_Populatie_verzamelingvan">verzameling van</a>
+                           
+                           
+                              <a class="link" href="#global_class_MIMBegrippen_Domeinobject">Domeinobject</a>
+                           
+                           [ 1 ]
+                        </td><td></td></tr><tr><td>
+                           Populatie
+                           [ 1 ]
+                           
+                              <a class="link" href="#detail_association_MIMBegrippen_Populatie_verzamelingmogelijkeinstanties">verzameling mogelijke instanties</a>
+                           
+                           
+                              <a class="link" href="#global_class_MIMBegrippen_Objecttype">Objecttype</a>
+                           
+                           [ 1 ]
+                        </td><td></td></tr></tbody></table>
+                  
+               
+            </section>
+            <section id="global_class_MIMBegrippen_Waarde"><h5>   Waarde!</h5>
+               <table style="width: 100%;"><colgroup style="width: 30%;"></colgroup><colgroup style="width: 70%;"></colgroup><tbody><tr><th>Naam</th><td>Waarde!</td></tr><tr><th>Indicatie abstract object</th><td>Nee</td></tr></tbody></table>
+               <h6>Overzicht relaties  </h6>
+                  <table style="width: 100%;"><colgroup style="width: 50%;"></colgroup><colgroup style="width: 50%;"></colgroup><tbody><tr><th>Relatienaam met kardinaliteiten</th><th>Definitie</th></tr><tr><td>
+                           Waarde!
+                           [ 1 ]
+                           
+                              <a class="link" href="#detail_association_MIMBegrippen_Waarde_toegekendaan">toegekend aan</a>
+                           
+                           
+                              <a class="link" href="#global_class_MIMBegrippen_Kenmerk">Kenmerk</a>
+                           
+                           [ 1 ]
+                        </td><td></td></tr></tbody></table>
+                  
+               
+            </section>
+            <section id="global_class_MIMBegrippen_Toegekendeidentificerendeeigenschap"><h5>   Toegekende identificerende eigenschap</h5>
+               <table style="width: 100%;"><colgroup style="width: 30%;"></colgroup><colgroup style="width: 70%;"></colgroup><tbody><tr><th>Naam</th><td>Toegekende identificerende eigenschap</td></tr><tr><th>Definitie</th><td>
+                        
+                              <p>Een TOEGEKENDE IDENTIFICERENDE EIGENSCHAP is een IDENTIFICERENDE EIGENSCHAP die met dat doel is toegekend aan een DOMEINOBJECT.</p>
+                           
+                     </td></tr><tr><th>Indicatie abstract object</th><td>Nee</td></tr></tbody></table>
+               <h6>Overzicht relaties  </h6>
+                  <table style="width: 100%;"><colgroup style="width: 50%;"></colgroup><colgroup style="width: 50%;"></colgroup><tbody><tr><th>Relatienaam met kardinaliteiten</th><th>Definitie</th></tr><tr><td>
+                           Toegekende identificerende eigenschap
+                           is specialisatie van
+                           
+                              <a class="link" href="#global_class_MIMBegrippen_Identificerendeeigenschap">Identificerende eigenschap</a>
+                           
+                        </td><td>
+                           <p>Een IDENTIFICERENDE EIGENSCHAP is een EIGENSCHAP waarmee de identiteit van een DOMEINOBJECT kan worden vastgesteld.</p>
+                        </td></tr></tbody></table>
+                  
+               
+            </section>
+            <section id="global_class_MIMBegrippen_Gegevensgroep"><h5>   Gegevensgroep</h5>
+               <table style="width: 100%;"><colgroup style="width: 30%;"></colgroup><colgroup style="width: 70%;"></colgroup><tbody><tr><th>Naam</th><td>Gegevensgroep</td></tr><tr><th>Definitie</th><td>
+                        
+                              <p>Een GEGEVENSGROEP is een groepering van GEGEVENs</p>
+                           
+                     </td></tr><tr><th>Indicatie abstract object</th><td>Nee</td></tr></tbody></table>
+               <h6>Overzicht relaties  </h6>
+                  <table style="width: 100%;"><colgroup style="width: 50%;"></colgroup><colgroup style="width: 50%;"></colgroup><tbody><tr><th>Relatienaam met kardinaliteiten</th><th>Definitie</th></tr><tr><td>
+                           Gegevensgroep
+                           [ 1 ]
+                           
+                              <a class="link" href="#detail_association_MIMBegrippen_Gegevensgroep_groeperingvan">groepering van</a>
+                           
+                           
+                              <a class="link" href="#global_class_MIMBegrippen_Gegeven">Gegeven</a>
+                           
+                           [ 1 ]
+                        </td><td></td></tr></tbody></table>
+                  
+               
+            </section>
+            <section id="global_class_MIMBegrippen_Categoriserendkenmerk"><h5>   Categoriserend kenmerk</h5>
+               <table style="width: 100%;"><colgroup style="width: 30%;"></colgroup><colgroup style="width: 70%;"></colgroup><tbody><tr><th>Naam</th><td>Categoriserend kenmerk</td></tr><tr><th>Definitie</th><td>
+                        
+                              <p>Een CATEGORISEREND KENMERK is een EIGENSCHAP van een DOMEINOBJECT waar een CATEGORIE aan kan worden toegekend.</p>
+                           
+                     </td></tr><tr><th>Indicatie abstract object</th><td>Nee</td></tr></tbody></table>
+               <h6>Overzicht relaties  </h6>
+                  <table style="width: 100%;"><colgroup style="width: 50%;"></colgroup><colgroup style="width: 50%;"></colgroup><tbody><tr><th>Relatienaam met kardinaliteiten</th><th>Definitie</th></tr><tr><td>
+                           Categoriserend kenmerk
+                           is specialisatie van
+                           
+                              <a class="link" href="#global_class_MIMBegrippen_Kenmerk">Kenmerk</a>
+                           
+                        </td><td>
+                           <p>Een KENMERK is een EIGENSCHAP van een DOMEINOBJECT waar een WAARDE aan kan worden toegekend.</p>
+                        </td></tr></tbody></table>
+                  
+               
+            </section>
+            <section id="global_class_MIMBegrippen_Relatietyperol"><h5>   Relatietyperol</h5>
+               <table style="width: 100%;"><colgroup style="width: 30%;"></colgroup><colgroup style="width: 70%;"></colgroup><tbody><tr><th>Naam</th><td>Relatietyperol</td></tr><tr><th>Definitie</th><td>
+                        
+                              <p>Een RELATIESOORTROL is een typering van een ROL van een DOMEINOBJECT in een relatie, getypeerd door een RELATIESOORT en behorende tot een OBJECTTYPE.</p>
+                           
+                     </td></tr><tr><th>Indicatie abstract object</th><td>Nee</td></tr></tbody></table>
+               <h6>Overzicht relaties  </h6>
+                  <table style="width: 100%;"><colgroup style="width: 50%;"></colgroup><colgroup style="width: 50%;"></colgroup><tbody><tr><th>Relatienaam met kardinaliteiten</th><th>Definitie</th></tr><tr><td>
+                           Relatietyperol
+                           [ 1 ]
+                           
+                              <a class="link" href="#detail_association_MIMBegrippen_Relatietyperol_typeringvan">typering van</a>
+                           
+                           
+                              <a class="link" href="#global_class_MIMBegrippen_Rol">Rol</a>
+                           
+                           [ 1 ]
+                        </td><td></td></tr><tr><td>
+                           Relatietyperol
+                           is specialisatie van
+                           
+                              <a class="link" href="#global_class_MIMBegrippen_Eigenschaptype">Eigenschaptype!</a>
+                           
+                        </td><td></td></tr></tbody></table>
+                  
+               
+            </section>
+            <section id="global_class_MIMBegrippen_Verwerkingsdomein"><h5>   Verwerkingsdomein</h5>
+               <table style="width: 100%;"><colgroup style="width: 30%;"></colgroup><colgroup style="width: 70%;"></colgroup><tbody><tr><th>Naam</th><td>Verwerkingsdomein</td></tr><tr><th>Definitie</th><td>
+                        
+                              <p>Een VERWERKINGSDOMEIN is een deel van de waarneembare en/of sociale werkelijkheid waarin we gegevens verwerken over een specifiek beschouwingsdomein.</p>
+                           
+                     </td></tr><tr><th>Indicatie abstract object</th><td>Nee</td></tr></tbody></table>
+            </section>
+            <section id="global_class_MIMBegrippen_Gegevensobjectrelatierol"><h5>   Gegevensobjectrelatierol</h5>
+               <table style="width: 100%;"><colgroup style="width: 30%;"></colgroup><colgroup style="width: 70%;"></colgroup><tbody><tr><th>Naam</th><td>Gegevensobjectrelatierol</td></tr><tr><th>Indicatie abstract object</th><td>Nee</td></tr></tbody></table>
+            </section>
+            <section id="global_class_MIMBegrippen_Letterlijkewaarde"><h5>   Letterlijke waarde</h5>
+               <table style="width: 100%;"><colgroup style="width: 30%;"></colgroup><colgroup style="width: 70%;"></colgroup><tbody><tr><th>Naam</th><td>Letterlijke waarde</td></tr><tr><th>Definitie</th><td>
+                        
+                              <p>Een LETTERLIJKE WAARDE is een WAARDE waarvan de betekenis letterlijk genomen moet worden, de waarde zelf en niets meer.</p>
+                           
+                     </td></tr><tr><th>Indicatie abstract object</th><td>Nee</td></tr></tbody></table>
+               <h6>Overzicht relaties  </h6>
+                  <table style="width: 100%;"><colgroup style="width: 50%;"></colgroup><colgroup style="width: 50%;"></colgroup><tbody><tr><th>Relatienaam met kardinaliteiten</th><th>Definitie</th></tr><tr><td>
+                           Letterlijke waarde
+                           is specialisatie van
+                           
+                              <a class="link" href="#global_class_MIMBegrippen_Waarde">Waarde!</a>
+                           
+                        </td><td></td></tr></tbody></table>
+                  
+               
+            </section>
+            <section id="global_class_MIMBegrippen_Waardetype"><h5>   Waardetype</h5>
+               <table style="width: 100%;"><colgroup style="width: 30%;"></colgroup><colgroup style="width: 70%;"></colgroup><tbody><tr><th>Naam</th><td>Waardetype</td></tr><tr><th>Definitie</th><td>
+                        
+                              <p>Een WAARDETYPE is een typering van gelijksoortige WAARDEn.</p>
+                           
+                     </td></tr><tr><th>Indicatie abstract object</th><td>Nee</td></tr></tbody></table>
+               <h6>Overzicht relaties  </h6>
+                  <table style="width: 100%;"><colgroup style="width: 50%;"></colgroup><colgroup style="width: 50%;"></colgroup><tbody><tr><th>Relatienaam met kardinaliteiten</th><th>Definitie</th></tr><tr><td>
+                           Waardetype
+                           [ 1 ]
+                           
+                              <a class="link" href="#detail_association_MIMBegrippen_Waardetype_typeringvan">typering van</a>
+                           
+                           
+                              <a class="link" href="#global_class_MIMBegrippen_Waarde">Waarde!</a>
+                           
+                           [ 1 ]
+                        </td><td></td></tr></tbody></table>
+                  
+               
+            </section>
+            <section id="global_class_MIMBegrippen_Relatietype"><h5>   Relatietype</h5>
+               <table style="width: 100%;"><colgroup style="width: 30%;"></colgroup><colgroup style="width: 70%;"></colgroup><tbody><tr><th>Naam</th><td>Relatietype</td></tr><tr><th>Definitie</th><td>
+                        
+                              <p>Een RELATIESOORT is een typering van een RELATIE.</p>
+                           
+                     </td></tr><tr><th>Indicatie abstract object</th><td>Nee</td></tr></tbody></table>
+               <h6>Overzicht relaties  </h6>
+                  <table style="width: 100%;"><colgroup style="width: 50%;"></colgroup><colgroup style="width: 50%;"></colgroup><tbody><tr><th>Relatienaam met kardinaliteiten</th><th>Definitie</th></tr><tr><td>
+                           Relatietype
+                           [ 1 ]
+                           
+                              <a class="link" href="#detail_association_MIMBegrippen_Relatietype_typeringvan">typering van</a>
+                           
+                           
+                              <a class="link" href="#global_class_MIMBegrippen_Relatie">Relatie</a>
+                           
+                           [ 1 ]
+                        </td><td></td></tr></tbody></table>
+                  
+               
+            </section>
+            <section id="global_class_MIMBegrippen_Classificatieschema"><h5>   Classificatieschema</h5>
+               <table style="width: 100%;"><colgroup style="width: 30%;"></colgroup><colgroup style="width: 70%;"></colgroup><tbody><tr><th>Naam</th><td>Classificatieschema</td></tr><tr><th>Definitie</th><td>
+                        
+                              <p>Een CLASSIFICATIESCHEMA is een systematische ordening van DOMEINOBJECTen in CATEGORIEen.</p>
+                           
+                     </td></tr><tr><th>Indicatie abstract object</th><td>Nee</td></tr></tbody></table>
+            </section>
+            <section id="global_class_MIMBegrippen_Eigenschaptype"><h5>   Eigenschaptype!</h5>
+               <table style="width: 100%;"><colgroup style="width: 30%;"></colgroup><colgroup style="width: 70%;"></colgroup><tbody><tr><th>Naam</th><td>Eigenschaptype!</td></tr><tr><th>Indicatie abstract object</th><td>Nee</td></tr></tbody></table>
+               <h6>Overzicht relaties  </h6>
+                  <table style="width: 100%;"><colgroup style="width: 50%;"></colgroup><colgroup style="width: 50%;"></colgroup><tbody><tr><th>Relatienaam met kardinaliteiten</th><th>Definitie</th></tr><tr><td>
+                           Eigenschaptype!
+                           [ 1 ]
+                           
+                              <a class="link" href="#detail_association_MIMBegrippen_Eigenschaptype_behoorttotheeftalsonderwerp">behoort tot??? heeft als onderwerp</a>
+                           
+                           
+                              <a class="link" href="#global_class_MIMBegrippen_Objecttype">Objecttype</a>
+                           
+                           [ 1 ]
+                        </td><td></td></tr></tbody></table>
+                  
+               
+            </section>
+            <section id="global_class_MIMBegrippen_Domeinobject"><h5>   Domeinobject</h5>
+               <table style="width: 100%;"><colgroup style="width: 30%;"></colgroup><colgroup style="width: 70%;"></colgroup><tbody><tr><th>Naam</th><td>Domeinobject</td></tr><tr><th>Definitie</th><td>
+                        
+                              <p>Een DOMEINOBJECT is een onderscheidbaar iets in de beschouwde werkelijkheid.</p>
+                           
+                     </td></tr><tr><th>Indicatie abstract object</th><td>Nee</td></tr></tbody></table>
+            </section>
+            <section id="global_class_MIMBegrippen_Rol"><h5>   Rol</h5>
+               <table style="width: 100%;"><colgroup style="width: 30%;"></colgroup><colgroup style="width: 70%;"></colgroup><tbody><tr><th>Naam</th><td>Rol</td></tr><tr><th>Definitie</th><td>
+                        
+                              <p>Een ROL is een EIGENSCHAP van een DOMEINOBJECT in een RELATIE met zichzelf of een ander DOMEINOBJECT.</p>
+                           
+                     </td></tr><tr><th>Indicatie abstract object</th><td>Nee</td></tr></tbody></table>
+               <h6>Overzicht relaties  </h6>
+                  <table style="width: 100%;"><colgroup style="width: 50%;"></colgroup><colgroup style="width: 50%;"></colgroup><tbody><tr><th>Relatienaam met kardinaliteiten</th><th>Definitie</th></tr><tr><td>
+                           Rol
+                           [ 1 ]
+                           
+                              <a class="link" href="#detail_association_MIMBegrippen_Rol_">?</a>
+                           
+                           
+                              <a class="link" href="#global_class_MIMBegrippen_Relatie">Relatie</a>
+                           
+                           [ 1 ]
+                        </td><td></td></tr><tr><td>
+                           Rol
+                           is specialisatie van
+                           
+                              <a class="link" href="#global_class_MIMBegrippen_Eigenschap">Eigenschap</a>
+                           
+                        </td><td>
+                           <p>Een EIGENSCHAP is een verschijnsel dat toegekend kan worden aan bepaalde DOMEIN Objecten.</p>
+                        </td></tr></tbody></table>
+                  
+               
+            </section>
+         </section><section><h4>Attribuut- en relatiesoort details  </h4>
+            <section><h5>Objecttype details  </h5>
+               <section id="detail_class_MIMBegrippen_Objecttype"><h6>   Objecttype</h6>
+                  <div class="deepheader" id="detail_association_MIMBegrippen_Objecttype_typeringvan"><h7>Relatiesoort details  <a href="#global_class_MIMBegrippen_Objecttype">Objecttype</a> typering van</h7>
+                     <table style="width: 100%;"><colgroup style="width: 30%;"></colgroup><colgroup style="width: 70%;"></colgroup><tbody><tr><th>Naam</th><td>typering van</td></tr><tr><th>Gerelateerd objecttype</th><td>
+                              <a class="link" href="#global_class_MIMBegrippen_Domeinobject">Domeinobject</a>
+                           </td></tr><tr><th>Kardinaliteit</th><td>1</td></tr></tbody></table>
+                     
+                  </div>
+               </section>
+               
+               <section id="detail_class_MIMBegrippen_Gegevenstypegroep"><h6>   Gegevenstypegroep</h6>
+                  <div class="deepheader" id="detail_association_MIMBegrippen_Gegevenstypegroep_groeperingvan"><h7>Relatiesoort details  <a href="#global_class_MIMBegrippen_Gegevenstypegroep">Gegevenstypegroep</a> groepering van</h7>
+                     <table style="width: 100%;"><colgroup style="width: 30%;"></colgroup><colgroup style="width: 70%;"></colgroup><tbody><tr><th>Naam</th><td>groepering van</td></tr><tr><th>Gerelateerd objecttype</th><td>
+                              <a class="link" href="#global_class_MIMBegrippen_Gegevenstype">Gegevenstype</a>
+                           </td></tr><tr><th>Kardinaliteit</th><td>1</td></tr></tbody></table>
+                     
+                  </div>
+               </section>
+               <section id="detail_class_MIMBegrippen_Complexwaardetype"><h6>   Complex waardetype</h6>
+                  <div class="deepheader" id="detail_association_MIMBegrippen_Complexwaardetype_heeftgegevenstype"><h7>Relatiesoort details  <a href="#global_class_MIMBegrippen_Complexwaardetype">Complex waardetype</a> heeft gegevenstype</h7>
+                     <table style="width: 100%;"><colgroup style="width: 30%;"></colgroup><colgroup style="width: 70%;"></colgroup><tbody><tr><th>Naam</th><td>heeft gegevenstype</td></tr><tr><th>Gerelateerd objecttype</th><td>
+                              <a class="link" href="#global_class_MIMMetaklassenConceptueel_Attribuutgegevenstype">Attribuutgegevenstype!</a>
+                           </td></tr><tr><th>Kardinaliteit</th><td>1</td></tr></tbody></table>
+                     
+                  </div>
+                  <div class="deepheader" id="detail_association_MIMBegrippen_Complexwaardetype_typeringvan"><h7>Relatiesoort details  <a href="#global_class_MIMBegrippen_Complexwaardetype">Complex waardetype</a> typering van</h7>
+                     <table style="width: 100%;"><colgroup style="width: 30%;"></colgroup><colgroup style="width: 70%;"></colgroup><tbody><tr><th>Naam</th><td>typering van</td></tr><tr><th>Gerelateerd objecttype</th><td>
+                              <a class="link" href="#global_class_MIMBegrippen_Complexewaarde">Complexe waarde</a>
+                           </td></tr><tr><th>Kardinaliteit</th><td>1</td></tr></tbody></table>
+                     
+                  </div>
+               </section>
+               <section id="detail_class_MIMBegrippen_Eigenschap"><h6>   Eigenschap</h6>
+                  <div class="deepheader" id="detail_association_MIMBegrippen_Eigenschap_toegekendaan"><h7>Relatiesoort details  <a href="#global_class_MIMBegrippen_Eigenschap">Eigenschap</a> toegekend aan</h7>
+                     <table style="width: 100%;"><colgroup style="width: 30%;"></colgroup><colgroup style="width: 70%;"></colgroup><tbody><tr><th>Naam</th><td>toegekend aan</td></tr><tr><th>Gerelateerd objecttype</th><td>
+                              <a class="link" href="#global_class_MIMBegrippen_Domeinobject">Domeinobject</a>
+                           </td></tr><tr><th>Kardinaliteit</th><td>1</td></tr></tbody></table>
+                     
+                  </div>
+               </section>
+               <section id="detail_class_MIMBegrippen_Gegevensobject"><h6>   Gegevensobject</h6>
+                  <div class="deepheader" id="detail_association_MIMBegrippen_Gegevensobject_heeftalshoofdonderwerp"><h7>Relatiesoort details  <a href="#global_class_MIMBegrippen_Gegevensobject">Gegevensobject</a> heeft als hoofdonderwerp</h7>
+                     <table style="width: 100%;"><colgroup style="width: 30%;"></colgroup><colgroup style="width: 70%;"></colgroup><tbody><tr><th>Naam</th><td>heeft als hoofdonderwerp</td></tr><tr><th>Gerelateerd objecttype</th><td>
+                              <a class="link" href="#global_class_MIMBegrippen_Hoofdonderwerp">Hoofdonderwerp</a>
+                           </td></tr><tr><th>Kardinaliteit</th><td>1</td></tr></tbody></table>
+                     
+                  </div>
+                  <div class="deepheader" id="detail_association_MIMBegrippen_Gegevensobject_onderscheidbaargeheelvan"><h7>Relatiesoort details  <a href="#global_class_MIMBegrippen_Gegevensobject">Gegevensobject</a> onderscheidbaar geheel van</h7>
+                     <table style="width: 100%;"><colgroup style="width: 30%;"></colgroup><colgroup style="width: 70%;"></colgroup><tbody><tr><th>Naam</th><td>onderscheidbaar geheel van</td></tr><tr><th>Gerelateerd objecttype</th><td>
+                              <a class="link" href="#global_class_MIMBegrippen_Gegeven">Gegeven</a>
+                           </td></tr><tr><th>Kardinaliteit</th><td>1</td></tr></tbody></table>
+                     
+                  </div>
+               </section>
+               <section id="detail_class_MIMBegrippen_Relatie"><h6>   Relatie</h6>
+                  <div class="deepheader" id="detail_association_MIMBegrippen_Relatie_verbintenistussen"><h7>Relatiesoort details  <a href="#global_class_MIMBegrippen_Relatie">Relatie</a> verbintenis tussen</h7>
+                     <table style="width: 100%;"><colgroup style="width: 30%;"></colgroup><colgroup style="width: 70%;"></colgroup><tbody><tr><th>Naam</th><td>verbintenis tussen</td></tr><tr><th>Gerelateerd objecttype</th><td>
+                              <a class="link" href="#global_class_MIMBegrippen_Domeinobject">Domeinobject</a>
+                           </td></tr><tr><th>Kardinaliteit</th><td>1</td></tr></tbody></table>
+                     
+                  </div>
+               </section>
+               
+               <section id="detail_class_MIMBegrippen_Categorie"><h6>   Categorie</h6>
+                  <div class="deepheader" id="detail_association_MIMBegrippen_Categorie_toegekendvia"><h7>Relatiesoort details  <a href="#global_class_MIMBegrippen_Categorie">Categorie</a> toegekend via</h7>
+                     <table style="width: 100%;"><colgroup style="width: 30%;"></colgroup><colgroup style="width: 70%;"></colgroup><tbody><tr><th>Naam</th><td>toegekend via</td></tr><tr><th>Gerelateerd objecttype</th><td>
+                              <a class="link" href="#global_class_MIMBegrippen_Categoriserendkenmerk">Categoriserend kenmerk</a>
+                           </td></tr><tr><th>Kardinaliteit</th><td>1</td></tr></tbody></table>
+                     
+                  </div>
+               </section>
+               <section id="detail_class_MIMBegrippen_Gegevensobjecttype"><h6>   Gegevensobjecttype</h6>
+                  <div class="deepheader" id="detail_association_MIMBegrippen_Gegevensobjecttype_typeringvan"><h7>Relatiesoort details  <a href="#global_class_MIMBegrippen_Gegevensobjecttype">Gegevensobjecttype</a> typering van</h7>
+                     <table style="width: 100%;"><colgroup style="width: 30%;"></colgroup><colgroup style="width: 70%;"></colgroup><tbody><tr><th>Naam</th><td>typering van</td></tr><tr><th>Gerelateerd objecttype</th><td>
+                              <a class="link" href="#global_class_MIMBegrippen_Gegevensobject">Gegevensobject</a>
+                           </td></tr><tr><th>Kardinaliteit</th><td>1</td></tr></tbody></table>
+                     
+                  </div>
+               </section>
+               
+               <section id="detail_class_MIMBegrippen_Attribuuttype"><h6>   Attribuuttype</h6>
+                  <div class="deepheader" id="detail_association_MIMBegrippen_Attribuuttype_typeringvan"><h7>Relatiesoort details  <a href="#global_class_MIMBegrippen_Attribuuttype">Attribuuttype</a> typering van</h7>
+                     <table style="width: 100%;"><colgroup style="width: 30%;"></colgroup><colgroup style="width: 70%;"></colgroup><tbody><tr><th>Naam</th><td>typering van</td></tr><tr><th>Gerelateerd objecttype</th><td>
+                              <a class="link" href="#global_class_MIMBegrippen_Kenmerk">Kenmerk</a>
+                           </td></tr><tr><th>Kardinaliteit</th><td>1</td></tr></tbody></table>
+                     
+                  </div>
+               </section>
+               <section id="detail_class_MIMBegrippen_Complexewaarde"><h6>   Complexe waarde</h6>
+                  <div class="deepheader" id="detail_association_MIMBegrippen_Complexewaarde_bestaatuit"><h7>Relatiesoort details  <a href="#global_class_MIMBegrippen_Complexewaarde">Complexe waarde</a> bestaat uit</h7>
+                     <table style="width: 100%;"><colgroup style="width: 30%;"></colgroup><colgroup style="width: 70%;"></colgroup><tbody><tr><th>Naam</th><td>bestaat uit</td></tr><tr><th>Gerelateerd objecttype</th><td>
+                              <a class="link" href="#global_class_MIMBegrippen_Letterlijkewaarde">Letterlijke waarde</a>
+                           </td></tr><tr><th>Kardinaliteit</th><td>1</td></tr></tbody></table>
+                     
+                  </div>
+                  <div class="deepheader" id="detail_association_MIMBegrippen_Complexewaarde_enofbestaatuit"><h7>Relatiesoort details  <a href="#global_class_MIMBegrippen_Complexewaarde">Complexe waarde</a> en of bestaat uit</h7>
+                     <table style="width: 100%;"><colgroup style="width: 30%;"></colgroup><colgroup style="width: 70%;"></colgroup><tbody><tr><th>Naam</th><td>en of bestaat uit</td></tr><tr><th>Gerelateerd objecttype</th><td>
+                              <a class="link" href="#global_class_MIMBegrippen_Classificatie">Classificatie!</a>
+                           </td></tr><tr><th>Kardinaliteit</th><td>1</td></tr></tbody></table>
+                     
+                  </div>
+               </section>
+               <section id="detail_class_MIMBegrippen_Identificerendeeigenschap"><h6>   Identificerende eigenschap</h6>
+                  <div class="deepheader" id="detail_association_MIMBegrippen_Identificerendeeigenschap_geeftidentiteitaan"><h7>Relatiesoort details  <a href="#global_class_MIMBegrippen_Identificerendeeigenschap">Identificerende eigenschap</a> geeft identiteit aan</h7>
+                     <table style="width: 100%;"><colgroup style="width: 30%;"></colgroup><colgroup style="width: 70%;"></colgroup><tbody><tr><th>Naam</th><td>geeft identiteit aan</td></tr><tr><th>Gerelateerd objecttype</th><td>
+                              <a class="link" href="#global_class_MIMBegrippen_Domeinobject">Domeinobject</a>
+                           </td></tr><tr><th>Kardinaliteit</th><td>1</td></tr></tbody></table>
+                     
+                  </div>
+               </section>
+               
+               
+               <section id="detail_class_MIMBegrippen_Gegeven"><h6>   Gegeven</h6>
+                  <div class="deepheader" id="detail_association_MIMBegrippen_Gegeven_vastleggingvaneen"><h7>Relatiesoort details  <a href="#global_class_MIMBegrippen_Gegeven">Gegeven</a> vastlegging van een</h7>
+                     <table style="width: 100%;"><colgroup style="width: 30%;"></colgroup><colgroup style="width: 70%;"></colgroup><tbody><tr><th>Naam</th><td>vastlegging van een</td></tr><tr><th>Gerelateerd objecttype</th><td>
+                              <a class="link" href="#global_class_MIMBegrippen_Eigenschap">Eigenschap</a>
+                           </td></tr><tr><th>Kardinaliteit</th><td>1</td></tr></tbody></table>
+                     
+                  </div>
+               </section>
+               <section id="detail_class_MIMBegrippen_Gegevenstype"><h6>   Gegevenstype</h6>
+                  <div class="deepheader" id="detail_association_MIMBegrippen_Gegevenstype_typeringvan"><h7>Relatiesoort details  <a href="#global_class_MIMBegrippen_Gegevenstype">Gegevenstype</a> typering van</h7>
+                     <table style="width: 100%;"><colgroup style="width: 30%;"></colgroup><colgroup style="width: 70%;"></colgroup><tbody><tr><th>Naam</th><td>typering van</td></tr><tr><th>Gerelateerd objecttype</th><td>
+                              <a class="link" href="#global_class_MIMBegrippen_Gegeven">Gegeven</a>
+                           </td></tr><tr><th>Kardinaliteit</th><td>1</td></tr></tbody></table>
+                     
+                  </div>
+               </section>
+               
+               
+               <section id="detail_class_MIMBegrippen_Sleutel"><h6>   Sleutel</h6>
+                  <div class="deepheader" id="detail_association_MIMBegrippen_Sleutel_verzamelingvan"><h7>Relatiesoort details  <a href="#global_class_MIMBegrippen_Sleutel">Sleutel</a> verzameling van</h7>
+                     <table style="width: 100%;"><colgroup style="width: 30%;"></colgroup><colgroup style="width: 70%;"></colgroup><tbody><tr><th>Naam</th><td>verzameling van</td></tr><tr><th>Gerelateerd objecttype</th><td>
+                              <a class="link" href="#global_class_MIMBegrippen_Gegevenstype">Gegevenstype</a>
+                           </td></tr><tr><th>Kardinaliteit</th><td>1</td></tr></tbody></table>
+                     
+                  </div>
+                  <div class="deepheader" id="detail_association_MIMBegrippen_Sleutel_uniekeaanduidingvoor"><h7>Relatiesoort details  <a href="#global_class_MIMBegrippen_Sleutel">Sleutel</a> unieke aanduiding voor</h7>
+                     <table style="width: 100%;"><colgroup style="width: 30%;"></colgroup><colgroup style="width: 70%;"></colgroup><tbody><tr><th>Naam</th><td>unieke aanduiding voor</td></tr><tr><th>Gerelateerd objecttype</th><td>
+                              <a class="link" href="#global_class_MIMBegrippen_Gegevensobjecttype">Gegevensobjecttype</a>
+                           </td></tr><tr><th>Kardinaliteit</th><td>1</td></tr></tbody></table>
+                     
+                  </div>
+               </section>
+               <section id="detail_class_MIMBegrippen_Populatie"><h6>   Populatie</h6>
+                  <div class="deepheader" id="detail_association_MIMBegrippen_Populatie_verzamelingvan"><h7>Relatiesoort details  <a href="#global_class_MIMBegrippen_Populatie">Populatie</a> verzameling van</h7>
+                     <table style="width: 100%;"><colgroup style="width: 30%;"></colgroup><colgroup style="width: 70%;"></colgroup><tbody><tr><th>Naam</th><td>verzameling van</td></tr><tr><th>Gerelateerd objecttype</th><td>
+                              <a class="link" href="#global_class_MIMBegrippen_Domeinobject">Domeinobject</a>
+                           </td></tr><tr><th>Kardinaliteit</th><td>1</td></tr></tbody></table>
+                     
+                  </div>
+                  <div class="deepheader" id="detail_association_MIMBegrippen_Populatie_verzamelingmogelijkeinstanties"><h7>Relatiesoort details  <a href="#global_class_MIMBegrippen_Populatie">Populatie</a> verzameling mogelijke instanties</h7>
+                     <table style="width: 100%;"><colgroup style="width: 30%;"></colgroup><colgroup style="width: 70%;"></colgroup><tbody><tr><th>Naam</th><td>verzameling mogelijke instanties</td></tr><tr><th>Gerelateerd objecttype</th><td>
+                              <a class="link" href="#global_class_MIMBegrippen_Objecttype">Objecttype</a>
+                           </td></tr><tr><th>Kardinaliteit</th><td>1</td></tr></tbody></table>
+                     
+                  </div>
+               </section>
+               <section id="detail_class_MIMBegrippen_Waarde"><h6>   Waarde!</h6>
+                  <div class="deepheader" id="detail_association_MIMBegrippen_Waarde_toegekendaan"><h7>Relatiesoort details  <a href="#global_class_MIMBegrippen_Waarde">Waarde!</a> toegekend aan</h7>
+                     <table style="width: 100%;"><colgroup style="width: 30%;"></colgroup><colgroup style="width: 70%;"></colgroup><tbody><tr><th>Naam</th><td>toegekend aan</td></tr><tr><th>Gerelateerd objecttype</th><td>
+                              <a class="link" href="#global_class_MIMBegrippen_Kenmerk">Kenmerk</a>
+                           </td></tr><tr><th>Kardinaliteit</th><td>1</td></tr></tbody></table>
+                     
+                  </div>
+               </section>
+               
+               <section id="detail_class_MIMBegrippen_Gegevensgroep"><h6>   Gegevensgroep</h6>
+                  <div class="deepheader" id="detail_association_MIMBegrippen_Gegevensgroep_groeperingvan"><h7>Relatiesoort details  <a href="#global_class_MIMBegrippen_Gegevensgroep">Gegevensgroep</a> groepering van</h7>
+                     <table style="width: 100%;"><colgroup style="width: 30%;"></colgroup><colgroup style="width: 70%;"></colgroup><tbody><tr><th>Naam</th><td>groepering van</td></tr><tr><th>Gerelateerd objecttype</th><td>
+                              <a class="link" href="#global_class_MIMBegrippen_Gegeven">Gegeven</a>
+                           </td></tr><tr><th>Kardinaliteit</th><td>1</td></tr></tbody></table>
+                     
+                  </div>
+               </section>
+               
+               <section id="detail_class_MIMBegrippen_Relatietyperol"><h6>   Relatietyperol</h6>
+                  <div class="deepheader" id="detail_association_MIMBegrippen_Relatietyperol_typeringvan"><h7>Relatiesoort details  <a href="#global_class_MIMBegrippen_Relatietyperol">Relatietyperol</a> typering van</h7>
+                     <table style="width: 100%;"><colgroup style="width: 30%;"></colgroup><colgroup style="width: 70%;"></colgroup><tbody><tr><th>Naam</th><td>typering van</td></tr><tr><th>Gerelateerd objecttype</th><td>
+                              <a class="link" href="#global_class_MIMBegrippen_Rol">Rol</a>
+                           </td></tr><tr><th>Kardinaliteit</th><td>1</td></tr></tbody></table>
+                     
+                  </div>
+               </section>
+               
+               
+               
+               <section id="detail_class_MIMBegrippen_Waardetype"><h6>   Waardetype</h6>
+                  <div class="deepheader" id="detail_association_MIMBegrippen_Waardetype_typeringvan"><h7>Relatiesoort details  <a href="#global_class_MIMBegrippen_Waardetype">Waardetype</a> typering van</h7>
+                     <table style="width: 100%;"><colgroup style="width: 30%;"></colgroup><colgroup style="width: 70%;"></colgroup><tbody><tr><th>Naam</th><td>typering van</td></tr><tr><th>Gerelateerd objecttype</th><td>
+                              <a class="link" href="#global_class_MIMBegrippen_Waarde">Waarde!</a>
+                           </td></tr><tr><th>Kardinaliteit</th><td>1</td></tr></tbody></table>
+                     
+                  </div>
+               </section>
+               <section id="detail_class_MIMBegrippen_Relatietype"><h6>   Relatietype</h6>
+                  <div class="deepheader" id="detail_association_MIMBegrippen_Relatietype_typeringvan"><h7>Relatiesoort details  <a href="#global_class_MIMBegrippen_Relatietype">Relatietype</a> typering van</h7>
+                     <table style="width: 100%;"><colgroup style="width: 30%;"></colgroup><colgroup style="width: 70%;"></colgroup><tbody><tr><th>Naam</th><td>typering van</td></tr><tr><th>Gerelateerd objecttype</th><td>
+                              <a class="link" href="#global_class_MIMBegrippen_Relatie">Relatie</a>
+                           </td></tr><tr><th>Kardinaliteit</th><td>1</td></tr></tbody></table>
+                     
+                  </div>
+               </section>
+               
+               <section id="detail_class_MIMBegrippen_Eigenschaptype"><h6>   Eigenschaptype!</h6>
+                  <div class="deepheader" id="detail_association_MIMBegrippen_Eigenschaptype_behoorttotheeftalsonderwerp"><h7>Relatiesoort details  <a href="#global_class_MIMBegrippen_Eigenschaptype">Eigenschaptype!</a> behoort tot??? heeft als onderwerp</h7>
+                     <table style="width: 100%;"><colgroup style="width: 30%;"></colgroup><colgroup style="width: 70%;"></colgroup><tbody><tr><th>Naam</th><td>behoort tot??? heeft als onderwerp</td></tr><tr><th>Gerelateerd objecttype</th><td>
+                              <a class="link" href="#global_class_MIMBegrippen_Objecttype">Objecttype</a>
+                           </td></tr><tr><th>Kardinaliteit</th><td>1</td></tr></tbody></table>
+                     
+                  </div>
+               </section>
+               
+               <section id="detail_class_MIMBegrippen_Rol"><h6>   Rol</h6>
+                  <div class="deepheader" id="detail_association_MIMBegrippen_Rol_"><h7>Relatiesoort details  <a href="#global_class_MIMBegrippen_Rol">Rol</a> ?</h7>
+                     <table style="width: 100%;"><colgroup style="width: 30%;"></colgroup><colgroup style="width: 70%;"></colgroup><tbody><tr><th>Naam</th><td>?</td></tr><tr><th>Gerelateerd objecttype</th><td>
+                              <a class="link" href="#global_class_MIMBegrippen_Relatie">Relatie</a>
+                           </td></tr><tr><th>Kardinaliteit</th><td>1</td></tr></tbody></table>
+                     
+                  </div>
+               </section>
+            </section>
+            
+            
+            
+            
+            
+         </section></section><section id="global_package_MIMMetaklassenConceptueel"><h3>Domein   MIM-Metaklassen-Conceptueel</h3><section id="EAID_EFCDEE8E_15AE_4807_B4EC_95187A36BE95"><h4>   MIM-Metamodel Algemeen - overzicht</h4><div class="imageinfo overview"><figure class="uml-diagram"><img id="EAID_EFCDEE8E_15AE_4807_B4EC_95187A36BE95" src="data/Images/EAID_EFCDEE8E_15AE_4807_B4EC_95187A36BE95.png" usemap="#imagemap-EAID_EFCDEE8E_15AE_4807_B4EC_95187A36BE95" alt="Diagram: MIM-Metamodel Algemeen - overzicht"><figcaption> ‒ Diagram: MIM-Metamodel Algemeen</figcaption></figure><map name="imagemap-EAID_EFCDEE8E_15AE_4807_B4EC_95187A36BE95"></map><p>
                         <p></p>
                      </p></div></section><section><h4>Objecttypen   </h4>
             <section id="global_class_MIMMetaklassenConceptueel_Gegevensobjecttype"><h5>   Gegevensobjecttype</h5>
