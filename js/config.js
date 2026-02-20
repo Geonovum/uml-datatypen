@@ -93,7 +93,7 @@ let respecConfig = {
       publisher: "Geonovum",
       date: "2024-06-13"
     },
-	iso191032024: {
+	"iso-19103-2024": {
       id: "iso-19103-2024",
       title: "Geographic information — Conceptual schema language",
       href: "https://www.iso.org/standard/83454.html",
