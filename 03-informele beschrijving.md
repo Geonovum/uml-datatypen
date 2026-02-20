@@ -6,4 +6,4 @@ Dit informatiemodel bevat alle primitieve datatypen die in informatiemodellen va
 - **ISO19107-2003**: bevat de ruimtelijke datatypen die zijn vastgelegd is de [[!iso-19107-2003]] standaard.
 - **datatypen-overig**: bevat overige datatypen die gebruikt worden in informatiemodellen maar niet in andere categorieën vallen.
 
-**_Opmerking_**: ISO 19103:2024 Conceptual Schema language [[!iso-19103-2024]] bevat de datatypen waarop de MIM datatypen zijn gebaseerd.
+**_Opmerking_**: ISO 19103:2024 Conceptual Schema language [[!ISO 19103:2024]] bevat de datatypen waarop de MIM datatypen zijn gebaseerd. In ISO 19103:2024 wordt weer gerefereerd aan NEN-ISO/IEC 11404 Information technology - General-Purpose Datatypes (GPD) [[!ISO/IEC 11404]]

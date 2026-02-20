@@ -93,12 +93,19 @@ let respecConfig = {
       publisher: "Geonovum",
       date: "2024-06-13"
     },
-	"iso-19103-2024": {
+	"ISO 19103:2024": {
       id: "iso-19103-2024",
       title: "Geographic information — Conceptual schema language",
       href: "https://www.iso.org/standard/83454.html",
       publisher: "ISO/TC 211",
       date: "2024"
   },
-  }
+   	"ISO/IEC 11404": {
+      id: "iso/iec-11404",
+      title: "Information technology - General-Purpose Datatypes (GPD)",
+      href: "https://www.nen.nl/nen-iso-iec-11404-2008-en-122652",
+      publisher: "NEN-ISO/IEC",
+      date: "2008"
+  },
+   }
 };
