@@ -1,10 +1,7 @@
-⚠️ Deze repository is automatisch bijgewerkt naar de nieuwste workflow.
-Voor vragen, neem contact op met [Linda van den Brink](mailto:l.vandenbrink@geonovum.nl) of [Wilko Quak](mailto:w.quak@geonovum.nl).
+Dit repository is gesplitst en daarom niet meer actueel
 
-Als je een nieuwe publicatie wilt starten, lees dan eerst de instructies in de README van de NL-ReSpec-template:
-[https://github.com/Geonovum/NL-ReSpec-template](https://github.com/Geonovum/NL-ReSpec-template).
+Gebruik de volgende repositories:
 
-## UML datatypen repository
-
-Werkversie is te lezen via GitHub Pages:
-<https://geonovum.github.io/uml-datatypen/>
+- [Geonovum datatypen](https://github.com/Geonovum/geonovum-datatypen)
+- [ISO 19107 datatypen](https://github.com/Geonovum/iso-19107-datatypen)
+- [MIM datatypen](https://github.com/Geonovum/mim-datatypen)
